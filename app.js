@@ -408,7 +408,7 @@ Log the object when it's constructed.
 Solve Exercise 21 here:
 */
 
-sortedPokemon = {};
+const sortedPokemon = {};
 pokemon.forEach((pokemon) => {
     if (!sortedPokemon[pokemon.type]) {
         sortedPokemon[pokemon.type] = [];
